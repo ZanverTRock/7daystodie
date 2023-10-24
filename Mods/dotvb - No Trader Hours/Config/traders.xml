@@ -1,0 +1,6 @@
+<dotvb>
+
+<removeattribute xpath="//trader_info/@open_time" />
+<removeattribute xpath="//trader_info/@close_time" />
+
+</dotvb>
