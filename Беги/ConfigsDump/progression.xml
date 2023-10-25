@@ -4611,3 +4611,7 @@
 <!-- Skill XP gain (automatic leveling) is DISABLED if exp_gain_multiplier = 0 -->
 <!-- For testing, add the following to fire messages inside effect groups or requirements -->
 <!-- <triggered_effect trigger="onSelfProgressionUpdate" action="LogMessage" message="buff triggered"/> -->
+<!-- *** NOTES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Skill XP gain (automatic leveling) is DISABLED if exp_gain_multiplier = 0 -->
+<!-- For testing, add the following to fire messages inside effect groups or requirements -->
+<!-- <triggered_effect trigger="onSelfProgressionUpdate" action="LogMessage" message="buff triggered"/> -->

@@ -9940,4 +9940,18 @@ If there is no hit the default quality is used.
   <lootcontainer name="SchoolBusApo" count="0" size="14,10" sound_open="UseActions/open_vehicle" open_time="0" sound_close="UseActions/close_vehicle" loot_quality_template="qualBaseTemplate">
     <!--Element appended by: "SchoolBusApo"-->
   </lootcontainer>
+</lootcontainers> name="drinkJarGrandpasMoonshine" count="1,2" />
+    <item name="drinkJarBeer" count="1,2" />
+    <item name="drinkJarBoiledWater" count="1,2" />
+    <item name="drinkJarPureMineralWater" count="1,2" />
+    <item name="drinkJarYuccaJuice" count="1,2" />
+    <item name="drinkJarGoldenRodTea" count="1,2" />
+    <item name="drinkJarRedTea" count="1,2" />
+    <item name="drinkJarBlackStrapCoffee" count="1,2" />
+    <item name="drinkJarCoffee" count="1,2" />
+    <item name="drinkCanMegaCrush" count="1,2" />
+  </lootcontainer>
+  <lootcontainer name="SchoolBusApo" count="0" size="14,10" sound_open="UseActions/open_vehicle" open_time="0" sound_close="UseActions/close_vehicle" loot_quality_template="qualBaseTemplate">
+    <!--Element appended by: "SchoolBusApo"-->
+  </lootcontainer>
 </lootcontainers>

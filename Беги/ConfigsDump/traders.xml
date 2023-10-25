@@ -2373,4 +2373,16 @@
       <item group="decorativeBlocks" unique_only="true" count="6,10" />
     </trader_items>
   </trader_info>
+</traders>unt="3,5" />
+      <item group="weaponsGunParts" count="2,4" />
+      <item name="armorMilitarySetParts" count="1,2" />
+      <item name="armorSteelSetParts" count="1,2" />
+      <item name="resourceMilitaryFiber" count="1,2" />
+      <item group="clothes" count="1,4" />
+      <item group="groupArmorAllLight" count="1,2" />
+      <item group="groupArmorAllHeavy" count="1,2" />
+      <item group="constructionSupplies" count="2,4" />
+      <item group="decorativeBlocks" unique_only="true" count="6,10" />
+    </trader_items>
+  </trader_info>
 </traders>

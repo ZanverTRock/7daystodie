@@ -69011,4 +69011,52 @@ MC_playerBlocks - SC_electrical,SC_traps,SC_decor,SC_playerHelpers
 <!-- <property name="Model" value="@:Entities/LootContainers/clothsRacksRectangleShirtsPrefab.prefab"/> -->
 <!-- <property name="SortOrder1" value="XXXX"/> -->
 <!-- <property name="SortOrder2" value="XXXX"/> -->
+<!-- </block> -->operty name="resourceMechanicalParts" value="10" />
+    </property>
+    <drop event="Destroy" name="resourceForgedSteel" count="5,10">
+      <!--Element appended by: "OcbClaimAutoRepair"-->
+    </drop>
+    <drop event="Destroy" name="resourceElectricParts" count="5,20" tag="salvageHarvest">
+      <!--Element appended by: "OcbClaimAutoRepair"-->
+    </drop>
+    <drop event="Destroy" name="resourceMechanicalParts" count="5,10" tag="salvageHarvest">
+      <!--Element appended by: "OcbClaimAutoRepair"-->
+    </drop>
+    <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1">
+      <!--Element appended by: "OcbClaimAutoRepair"-->
+    </drop>
+  </block>
+</blocks>
+<!-- Block limit: There can be 32k blocks in the game. -->
+<!-- 0-255 are reserved for air/terrain blocks. -->
+<!-- IDs are generated internally on loading the game/blocks/items (1 byte for terrain, 2 for the rest). -->
+<!-- Note that CreativeMode=Test means that they only show in the creative menu in Unity and with the "Dev Blocks" button on. -->
+<!-- Template for adding new SHAPES: -->
+<!-- <block name="woodINSERTNEWBLOCKNAME"> -->
+<!-- <property name="Extends" value="woodNoUpgradeMaster"/> -->
+<!-- <property name="CreativeMode" value="Test"/> -->
+<!-- <property name="Shape" value="New"/> -->
+<!-- <property name="Model" value="INSERTNEWSHAPENAME"/> -->
+<!-- <property name="UseGlobalUV" value="Local"/> -->
+<!-- <property name="SortOrder1" value="XXXX"/> -->
+<!-- <property name="SortOrder2" value="XXXX"/> -->
+<!-- <property name="FilterTags" value="MC_building,SC_residential"/> -->
+<!-- </block> -->
+<!-- Template for adding new MODEL ENTITIES: -->
+<!-- <block name="sandbagBlahWhatever"> -->
+<!-- <property name="CreativeMode" value="Test"/> -->
+<!-- <property name="Material" value="Mmetal"/> -->
+<!-- <property name="Shape" value="ModelEntity"/> -->
+<!-- <property name="Model" value="Entities/Sandbags/sandbag_corner_02Prefab"/> -->
+<!-- <property name="SortOrder1" value="XXXX"/> -->
+<!-- <property name="SortOrder2" value="XXXX"/> -->
+<!-- </block> -->
+<!-- Template for adding new MODEL ENTITY LOOT CONTAINERS: -->
+<!-- <block name="cntNewLootContainer"> -->
+<!-- <property name="CreativeMode" value="Test"/> -->
+<!-- <property name="Material" value="Mmetal"/> -->
+<!-- <property name="Shape" value="ModelEntity"/> -->
+<!-- <property name="Model" value="@:Entities/LootContainers/clothsRacksRectangleShirtsPrefab.prefab"/> -->
+<!-- <property name="SortOrder1" value="XXXX"/> -->
+<!-- <property name="SortOrder2" value="XXXX"/> -->
 <!-- </block> -->

@@ -6159,4 +6159,19 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <!-- resourceSpring -->
 <!-- resourceSewingKit -->
 <!-- resourceAcid -->
+<!-- oddball resources like a flashlight at the bottom -->ndardized order for mod ingredients -->
+<!-- resourceCloth -->
+<!-- resourceScrapIron -->
+<!-- resourceForgedIron -->
+<!-- resourceForgedSteel -->
+<!-- resourceScrapPolymers -->
+<!-- resourceLeather -->
+<!-- resourceGlue -->
+<!-- resourceDuctTape -->
+<!-- resourceOil -->
+<!-- resourceElectricParts -->
+<!-- resourceMechanicalParts -->
+<!-- resourceSpring -->
+<!-- resourceSewingKit -->
+<!-- resourceAcid -->
 <!-- oddball resources like a flashlight at the bottom -->
